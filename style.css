@@ -108,12 +108,11 @@ h3{
   
     body{
         max-height: 100vh;
-        max-width: ;
+        
         
     }
     .container{
-        overflow: hidden;
-        height: 100vh;
-        max-width: 300px;
+         width:90vw;
+         max-width:25rem
     }
 }
