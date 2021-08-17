@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:  hsl(225, 100%, 98%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    height: 80vh;
+    width: 60vh;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fefefe;
+    position: relative;
+}
+.bg-img{
+    object-fit: cover;
+    width: 400px;
+    height: 150px;
+    background-size: cover;
+}
+.container h1{
+    margin: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.container p{
+    font-size: 16px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: rgb(98, 97, 97);
+}
+.price{
+    background-color: hsl(225, 100%, 98%);
+    margin: 30px;
+    margin-top: 10pxpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    border-radius: 10px;
+}
+.music-img{
+    height: 6vh;
+    /* margin-left: 50px;
+    position: absolute;
+    bottom:20vh; */
+}
+.annual{
+    margin-top:0px;
+    margin-left: 40px;
+}
+.price-money{
+    margin-left: 40px;
+}
+a{
+    margin-left: 50px;
+    color:hsl(223, 47%, 23%) ;
+}
+h3{
+    font-size: 14px;
+    margin-left: 110px;
+    
+}
+.proceed{
+    height: 40px;
+    width: 310px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    background-color:#4a60e3 ;
+    color: white;
+    font-weight: bold;
+    
+}
+.cancel{
+    margin-left: 40%;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: gray;
+}
+.proceed:hover{
+    background-color: #6f75c7;
+    font-weight: bolder;
+}
+.cancel:hover{
+    font-weight: bolder;
+}
+
+/* Responsive */
+@media (max-width:375px) {
+  
+    body{
+        max-height: 100vh;
+        max-width: ;
+        
+    }
+    .container{
+        overflow: hidden;
+        height: 100vh;
+        max-width: 300px;
+    }
+}
